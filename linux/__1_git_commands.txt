@@ -1,0 +1,103 @@
+~ bash: /c/Users/User: Is a directory
+
+cd /f 
+
+cd f:/HTML/Python/timofey/automation/12_web_scrapping_selenium/gmail_account_login/gmail_login_test_2
+
+$ mkdir --help
+Usage: mkdir [OPTION]... DIRECTORY...
+Create the DIRECTORY(ies), if they do not already exist.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -m, --mode=MODE   set file mode (as in chmod), not a=rwx - umask
+  -p, --parents     no error if existing, make parent directories as needed
+  -v, --verbose     print a message for each created directory
+  -Z                   set SELinux security context of each created directory
+                         to the default type
+      --context[=CTX]  like -Z, or if CTX is specified then set the SELinux
+                         or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/mkdir>
+or available locally via: info '(coreutils) mkdir invocation'
+
+# ====== код программы =========== https://www.youtube.com/watch?v=7GhzNwkvQ1I&ab_channel=IT4eachcom
+#!/bin/bash
+# make dir and file
+
+# 1:30 создать четыре папки в текущей директории
+mkdir a b c d
+mkdir a/b
+mkdir a/b/c
+mkdir a/b/c/d
+mkdir -p a/b/c/d
+
+# 1:45 создать четырёх уровневую директорию в текущей директории
+mkdir -p a/b/c/d
+
+# создать простой текстовой файл tmp и записать в него 
+#  3:23     список файлов и папок текущей директории
+ls (знак перенаправления) tmp
+
+# 4:30 создать простой текстовой файл tmp и записать в него 'privet'
+echo 'privet'  (знак перенаправления)  tmp 
+echo 'privet'>privet
+
+# 5:07 создать пустой текстовой файл tmp
+ (знак перенаправления) tmp
+>nnn
+
+# 5:40 cat (знак перенаправления) ddd - создать файл с записью внутри
+cat>catinformation
+This is cat information
+1. Cat command
+2. Write information
+3. Ctrl+D - выйти из программы
+
+# создать файл
+ls>txt
+ls>__5_git_commands.txt
+
+ls это list
+
+
+LINUX ~ uname
+      ~ uname - a
+      ~ lscpu - какой процессор
+
+clear - очистить экран
+
+ls - l - файлы как в DOS
+
+echo $PATH - директории в которых будет linux искать команды которые нужно запустить
+
+echo "Hello World" - чтоб программировать скрипты
+
+LINUX ~ Ctrl+Alt+F3 (левый) - интерфейс фирмы на Linux
+
+LINUX ~ man -k time  все команды с time - manual keyword  
+      ~ man uptime
+      ~ man -k passwd
+      ~ info uptime
+      ~ q - выход
+      ~ whatis uptime
+      ~ whereis uptime   где находится команда и документация
+      ~ locate readme.txt
+
+ping www.google.com  - пинги
+Ctrl+C - разорвать
+Ctrl+Z - заснуть
+fg     - вернуть процесс ping foregraund
+
+ps - какие процессы бешут на моем процессоре
+
+
+exit - выход из программы
+
+
+        
+
+
